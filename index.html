@@ -1,11 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mim</title>
+    <meta name="description" content="Projeto Portfolio">
+    <meta name="author" content="Rayane Moara">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="icon" type="image/svg" href="assets/img/favicon.svg">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+    </style>
+    <title>Meu Portfólio :)</title>
 </head>
+
 <body>
-    
+    <!-- Cabeçalho da Página (Header)-->
+    <header>
+
+        <!-- Div Conteudo do Cabeçalho -->
+        <div id="header_content" class="flex">
+
+            <!-- Titulo do Cabeçalho -->
+            <div id="titulo">
+                <h1>Rayane Moara</h1>
+            </div>
+
+            <!-- Conteudo do menu da Página (header)-->
+            <div id="menu">
+                <nav>
+
+                    <ul id="menu">
+                        <li>
+                            <a href="index.html"> Home </a>
+                        </li>
+                        <li>
+                            <a href="contato.html"> Contato </a>
+                        </li>
+                    </ul>
+
+                </nav>
+
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Seção Principal da Página (Header)-->
+    <main>
+
+        <section id="about" class="flex_start">
+
+            <h2>Aqui está um breve resumo sobre mim :)</h2> 
+
+            <div id="conteudo" class="flex">
+
+                <img src="https://ik.imagekit.io/dknadiudw/Portif%C3%B3lio.jpg?updatedAt=1736456545044" 
+                
+                    width: 250px;
+                    height: 250px; 
+                    border-radius: 100%; 
+                    alt="Foto da criadora" 
+                    class="img_profile" />
+
+                <article id="sobre_texto">
+                    <p> < Olá, tenho 27 anos, sou uma Desenvolvedora FullStack e Publicitária em constante evolução. </p>
+
+                    <ul>
+                        <li>Estudante de Publicidade & Propaganda no Centro Universitário Unicarioca</li>
+                        <li>Bootcamper Java FullStack na Generation</li>
+                        <li>Certificada em Programação na linguagem Python no Centro Vocacional de Tecnologia & Inovação</li>
+                        <li>Certificada no Curso de Extensão em Excel da Unicarioca</li>
+                    </ul>
+                        <p> Juntando o melhor dos dois mundos, Tech e Comunicação! /> </p>
+
+                </article>
+            </div>
+        </section>
+
+        <section id="video" class="flex_start">
+
+            <div id="youtube" class="flex">
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/ctnXwTxnURQ?si=OEWZzQ9X7HwGsM_i"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Rodapé da Página (Header)-->
+    <footer class="flex">
+
+        <section id="redes_sociais">
+
+            <a href="https://www.linkedin.com/in/rayane-moara/" target="_blank">
+                <img src="assets/img/linkedin.svg" alt="LinkedIn" height="70">
+            </a>
+            <a href="https://github.com/rayanemoara" target="_blank">
+                <img src="assets/img/github.svg" alt="Github" height="70">
+            </a>
+        </section>
+
+        <h3>
+            Feito por Rayane Moara 🎀💻 - 2025
+        </h3>
+    </footer>
 </body>
+
 </html>
